@@ -14,16 +14,33 @@ h1 {
   z-index: 1;
 }
 
-.arimo-Titulo {
+.arimo-h1 {
   font-family: "Arimo", sans-serif;
   font-optical-sizing: auto;
   font-weight: 400;
   font-style: normal;
 }
 
+.Titulo {
+  font-family: Arial, sans-serif;
+  font-size: 40px;
+  color: white;
+  background-color: black;
+  padding: 20px;
+}
+
+.destaque {
+  color: #00ffcc;
+  font-weight: bold;
+  text-transform: capitalize;
+}
+
 /* Estilo para a frase */
 
 .Frase {
+  font-size: 20px;
+  font-family: "Arimo", sans-serif;
+  color: white;
   padding: 20px;
 }
 
