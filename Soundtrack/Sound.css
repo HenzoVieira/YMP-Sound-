@@ -6,9 +6,12 @@ body {
 }
 
 /* Estilo para o título */
-.Titulo {
+h1 {
   font-size: 70px;
   font-family: "Arimo", sans-serif;
+  display: flex;
+  justify-content: center;
+  z-index: 1;
 }
 
 .arimo-Titulo {
@@ -16,4 +19,23 @@ body {
   font-optical-sizing: auto;
   font-weight: 400;
   font-style: normal;
+}
+
+/* Estilo para a frase */
+
+.Frase {
+  padding: 20px;
+}
+
+/* Estilo para a ferramenta */
+.Ferramenta {
+  width: 29px;
+  height: 20px;
+  color: white;
+  display: flex;
+  z-index: 1;
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  bottom: 10px;
 }
